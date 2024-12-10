@@ -1,8 +1,8 @@
-@media screen and (max-width: 1200px) {
-    #desktop-nav {
-        display: none;
+@media (min-width: 1200px) {
+    #hamburger-nav {
+        display: none; /* Hide the hamburger menu */
     }
-}
-#hamburger-nav {
-    display: flex;
+    .nav-links {
+        display: flex; /* Show the full navigation links */
+    }
 }
